@@ -21,4 +21,3 @@ print("Поступили:")
 print("Не поступили:")
 [print(elem) for elem in loser_list]
 
-print(students["Дарья У."])
