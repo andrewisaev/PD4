@@ -110,7 +110,6 @@ mindeleev_table = {"1": "Водород",
                    }
 
 user_num = input()
-for num,element in  mindeleev_table.items():
+for num, element in mindeleev_table.items():
     if num == user_num:
         print(f"{num} это {element.lower()}")
-    
