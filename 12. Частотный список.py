@@ -3,7 +3,7 @@ from pprint import pprint
 marks = '''!()-[]{};?@#$%:'"\,./^&amp;*_«»'''
 user_input = input()
 for mark in marks:
-    user_input=user_input.replace(mark, "")
+    user_input = user_input.replace(mark, "")
 
 words_list = list(user_input.lower().split())
 
