@@ -18,9 +18,9 @@ income_and_outcome = []
 
 for key, value in log_dict.items():
     for name in value:
-        if log_dict["Зашел"].count(name) > log_dict["Вышел"].count(name):
+        if key[0].count(name) > key[1].count(name):
             not_outcome.append(name)
-        elif log_dict["Зашел"].count(name) < log_dict["Вышел"].count(name):
+        elif key[0].count(name) < key[1].count(name):
             only_outcome.append(name)
         else:
             income_and_outcome.append(name)
